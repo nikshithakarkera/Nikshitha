@@ -1,3 +1,5 @@
+#7a. Write a shellscript that gets executed and displays the message either "Good morning" or 
+#"Good Afternoon" or "Good evening" depending upon time at which the user logs in.
 set -- `who`
 user=$1
 set -- `echo $4 | tr ":" " "`
