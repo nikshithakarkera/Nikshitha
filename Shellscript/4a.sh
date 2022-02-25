@@ -1,3 +1,5 @@
+#4a. Write a shellscript that accept one or more filenames asargument and convert all of them to
+#uppercase,providedtheyexistincurrentdirectory. 
 for i in $*
 do
 if [ -f $* ]
