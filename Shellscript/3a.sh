@@ -1,3 +1,4 @@
+#3a.Create a script file called file-properties that reads a filename entered and outputs it Properties
 if [ -e $1 ]
 then
 set -- `ls -ld $1`
