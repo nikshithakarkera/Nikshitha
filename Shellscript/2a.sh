@@ -1,4 +1,4 @@
-# Write a shellscript that accepts two filenames as arguments,checks if the permissions for 
+#Write a shellscript that accepts two filenames as arguments,checks if the permissions for 
 #these files are identical and if the permissions are identical,output common permissions
 #and otherwise output each filename followed by its permissions.
 echo -n "enter the first file:"
