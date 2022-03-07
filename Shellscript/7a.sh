@@ -1,4 +1,4 @@
-#7a. Write a shellscript that gets executed and displays the message either "Good morning" or 
+#7a.Write a shellscript that gets executed and displays the message either "Good morning" or 
 #"Good afternoon" or "Good evening" depending upon time at which the user logs in.
 user=`whoami`
 set -- `who`
