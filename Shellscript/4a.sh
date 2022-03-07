@@ -1,8 +1,8 @@
-#4a. Write a shellscript that accept one or more filenames asargument and convert all of them to
-#uppercase,providedtheyexistincurrentdirectory. 
+#4a.Write a shellscript that accept one or more filenames asargument and convert all of them to
+#uppercase,provided they exist in current directory. 
 for i in $*
 do
-if [ -f $* ]
+if [ -f $1 ]
 then
 echo "-------------$i contents are--------------"
 cat $i | tr "[a-z]" "[A-Z]"
