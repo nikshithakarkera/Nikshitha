@@ -8,6 +8,7 @@ OFS=" "
 
 {
 split($0,date,"-")
+date[3]=2000+date[3]
 
 if(date[2]>=1 && date[2]<=12){
 
