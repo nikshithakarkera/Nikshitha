@@ -1,5 +1,6 @@
 #7b. Write a shell script that accepts a list of filenames as its argument, count and report
 #occurrence of each word that is present in the first argument file on other argument files.
+
 if [ $# -ne 0 ]
 then
 	if [ $# -ge 2 ]
